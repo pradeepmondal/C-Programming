@@ -4,7 +4,11 @@ int main(){
     int a,b,c;
     printf("Enter the value of a and b: ");
     scanf("%d %d %d", &a, &b, &c);
-    if((a>b)&&(a>c)){
+
+    if(a==b==c){
+        printf("Numbers are equal");
+    }
+    else if((a>b)&&(a>c)){
         printf("%d is greater", a);
     }
     else if((b>a)&&(b>c)){
